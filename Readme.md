@@ -165,7 +165,7 @@ SSH (Secure Shell) and SFTP (SSH File Transfer Protocol) are commonly subjected 
 
 In just approximately 5 minutes since the server has been operational, we have observed over two login attempts from various IP addresses:
 
-	![Untitled](images/Untitled15.png)
+![Untitled](images/Untitled15.png)
 
 Note that the log messages indicate the absence of a matching key exchange method, which is a result of selecting the "TransferSecurityPolicy-2022-03" as the **Security policy** during the configuration of the Transfer Family server. Consequently, Transfer Family only permits the use of newer and more secure encryption algorithms. Many login attempts employ outdated and less secure algorithms to accommodate a wider range of SSH/SFTP servers.
 
@@ -185,7 +185,7 @@ Note that the log messages indicate the absence of a matching key exchange metho
 
 After a few minutes, when reviewing the "ERRORS" log, we can observe that the login attempts progress further into the process. They establish a connection and proceed to attempt logins using common usernames and passwords:
 
-	![Untitled](images/Untitled18.png)
+![Untitled](images/Untitled18.png)
 
 This emphasizes the significance of securing your SFTP server, ideally by restricting access to your Virtual Private Cloud (VPC) and utilizing a Client or Site-to-Site VPN for accessing the SFTP server. Alternatively, it is recommended to use SSH **keys** instead of relying on usernames and passwords.
 

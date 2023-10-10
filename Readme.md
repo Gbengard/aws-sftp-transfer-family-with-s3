@@ -82,7 +82,7 @@ def lambda_handler(event, context):
 14. Set the **Principal** as `transfer.amazonaws.com`.
 15. Set the **Source ARN** as `arn:aws:transfer:<region>:\<account id\>:server/*`. Retrieve your account number and current region from the top right of the AWS Console.
 16. Set the **Action** as `lambda:InvokeFunction`.
-    ![Untitled](images/Untitled5.png)
+    ![Untitled](images/Untitled5.jpg)
 17. Click "Save".
 
 ## Stage 3 - Setting Up the Transfer Family Server

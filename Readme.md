@@ -195,13 +195,13 @@ This emphasizes the significance of securing your SFTP server, ideally by restri
 
 2.	Select your SFTP bucket and click <kbd>Empty</kbd>.
 
-	![Untitled](images/Untitled19.png)
+	![Untitled](images/Untitled19.jpg)
 
 3.	Enter "*permanently delete"* in the confirmation window and click <kbd>Empty</kbd>.
 
 4.	Next, choose your SFTP bucket and click <kbd>Delete</kbd>.
 
-	![Untitled](images/Untitled20.png)
+	![Untitled](images/Untitled20.jpg)
 
 5.	Enter the bucket name in the confirmation window and click <kbd>Delete</kbd>.
 

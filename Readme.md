@@ -1,4 +1,4 @@
-# SFTP Transfer Family with S3 Backing
+# SFTP Transfer Family with S3
 
 ## Overview
 

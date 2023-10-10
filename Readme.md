@@ -2,7 +2,7 @@
 
 ## Overview
 
-This GitHub project aims to provide a comprehensive guide for setting up an SFTP server using AWS Transfer Family with S3 as the storage backend. The project utilizes a custom identity provider with a basic Lambda function that includes hard-coded username and password combinations.
+This project aims to provide a comprehensive guide for setting up an SFTP server using AWS Transfer Family with S3 as the storage backend. The project utilizes a custom identity provider with a basic Lambda function that includes hard-coded username and password combinations.
 
 It is important to note that AWS Transfer Family has associated costs. The service is priced at $0.30 per protocol per hour for running the server and $0.04 per GB transferred. Therefore, it is crucial to remember to delete the allocated resources once they are no longer needed. Detailed pricing information can be found [here](https://aws.amazon.com/aws-transfer-family/pricing/).
 
